@@ -42,7 +42,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Links
 
 - Solution URL: [https://github.com/lipegusmao/FrontEndMentorEx1](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://front-end-mentor-ex1.vercel.app](https://your-live-site-url.com)
 
 ## My process
 
