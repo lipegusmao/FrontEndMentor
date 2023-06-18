@@ -1,0 +1,210 @@
+@media (max-width: 500px) {
+    body { 
+        height: 60em;
+     }
+    .box-container { 
+        width: 25em;
+        height: 90%;
+        margin: 1em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+        box-shadow: 0 0.5em 40px 0.5px rgba(0, 112, 112, 0.2);
+        border-radius: 0 0 0 0;
+    }
+    .left-box { 
+        width: 100%; 
+        height: 66%;
+        display: flex;
+        flex-direction: column;
+        background-image: linear-gradient(rgba(103,67,255,255), rgba(48,44,234,255)); 
+        border-radius: 0 0 2em 2em;
+    }
+    .right-box {
+        width: 85%; 
+        height: 85%;
+        margin-top: -2%;
+        
+    }
+    #circleResult { 
+        background-image: linear-gradient(rgba(76,34,203,255), rgba(71,52,240,255)); 
+        border-radius: 50%;
+        width: 9em; 
+        height: 9em;
+        margin-top: -2%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #nPorcent { 
+        font-size: 3.5em;
+        font-family: 'Hanken Grotesk';
+        font-weight: bold;
+        color: white;
+        
+    }
+    #subPorcent { 
+        font-size: 1em;
+        font-family: 'Hanken Grotesk';
+        color: rgba(136,124,255,255);
+        
+    }
+    h3 {
+        font-size: 1.2em;
+        text-align: left;
+        margin-top: 10%;
+        margin-left: 1%;
+        font-family: 'Hanken Grotesk';
+        font-weight: bold;
+        color: rgba(40,47,60,255);
+    }
+    h2 {
+        font-size: 1.2em;
+        font-family: 'Hanken Grotesk';
+        font-weight: bold;
+        display: flex;
+        color: rgba(203,190,255,255);
+    }
+    h1 { 
+        font-size: 1.5em;
+        font-family: 'Hanken Grotesk';
+        font-weight: bold;
+        color: white;
+    }
+    #pScore {
+        font-size: 1.03em;
+        width: 70%;
+        text-align: center;
+        margin-bottom: 12%;
+        font-family: 'Hanken Grotesk';
+        color: rgba(199,200,255,255);
+    }
+    .summaryBox {
+        width: 100%;
+        height: 100%;
+        margin-top: -3%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .summaryBox1 {
+        width: 100%;
+        height: 15%;
+        font-family: 'Hanken Grotesk';
+        font-weight: bold;
+        font-size: 1.1em;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: rgba(255,246,245,255);
+        border-radius: 0.6em;
+    }
+    #reactionImg {
+        padding-left: 5%;
+    }
+    #reaction {
+        color: #ff5858;
+        padding-left: 4%;
+    }
+    #reactionNum {
+        color: #2c3143;
+        padding-left: 39%;
+    }
+    .summaryBox2 {
+        width: 100%;
+        height: 15%;
+        font-family: 'Hanken Grotesk';
+        font-weight: bold;
+        font-size: 1.1em;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: rgba(255,251,242,255);
+        border-radius: 0.6em;
+    }
+    #memoryImg {
+        padding-left: 5%;
+    }
+    #memory {
+        color: #ffba38;
+        padding-left: 4%;
+    }
+    #memoryNum {
+        color: #2c3143;
+        padding-left: 40%;
+    }
+    .summaryBox3 {
+        width: 100%;
+        height: 15%;
+        font-family: 'Hanken Grotesk';
+        font-weight: bold;
+        font-size: 1.1em;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: rgba(242,251,250,255);
+        border-radius: 0.6em;
+    }
+    #verbalImg {
+        padding-left: 5%;
+    }
+    #verbal {
+        color: #32c8a6;
+        padding-left: 4%;
+    }
+    #verbalNum {
+        color: #2c3143;
+        padding-left: 44%;
+    }
+    .summaryBox4 {
+        width: 100%;
+        height: 15%;
+        font-family: 'Hanken Grotesk';
+        font-weight: bold;
+        font-size: 1.1em;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: rgba(243,243,253,255);
+        border-radius: 0.6em;
+    }
+    #visualImg {
+        padding-left: 5%;
+    }
+    #visual {
+        color: #283bda;
+        padding-left: 4%;
+    }
+    #visualNum {
+        color: #2c3143;
+        padding-left: 45%;
+    }
+    #btnContinue {
+        width: 100%;
+        height: 14%;
+        background-color: rgba(48,59,89,255);
+        border-radius: 2.1em;
+        margin: -8% auto 7% auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        cursor:pointer;
+    
+    }
+    #btnText {
+        text-align: center; 
+        font-size: 1.4em; 
+        font-family: 'Hanken Grotesk'; 
+        color: white;
+    }
+    .attribution { 
+        font-size: 11px; 
+        text-align: center;
+    }
+    .attribution a { 
+        color: hsl(228, 45%, 44%); 
+    }
+}
